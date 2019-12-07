@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1baa010f-2a5a-45b8-bfea-77949e7b41e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day 3/input" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +43,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Day 3 Part 2">
-    <configuration name="Day 1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Day 7 Part 1">
+    <configuration name="Day 5 Part 1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Advent of Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -53,12 +52,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 1/Day 1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 5/Day 5 Part 1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -67,7 +66,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Day 2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Day 5 Part 2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Advent of Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,12 +74,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 2/Day 2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 5/Day 5 Part 2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Day 3 Part 2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Day 6 Part 1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Advent of Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,12 +96,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 3/Day 3 Part 2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 6/Day 6 Part 1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Day 3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Day 6 Part 2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Advent of Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,12 +118,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 3/Day 3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 6/Day 6 Part 2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,12 +132,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Day 7 Part 1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Advent of Code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day 7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day 7/Day 7 Part 1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Day 5 Part 1" />
+      <item itemvalue="Python.Day 5 Part 2" />
+      <item itemvalue="Python.Day 6 Part 1" />
+      <item itemvalue="Python.Day 6 Part 2" />
+      <item itemvalue="Python.Day 7 Part 1" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Day 3 Part 2" />
-        <item itemvalue="Python.Day 3" />
-        <item itemvalue="Python.Day 2" />
-        <item itemvalue="Python.Day 1" />
+        <item itemvalue="Python.Day 7 Part 1" />
+        <item itemvalue="Python.Day 6 Part 2" />
+        <item itemvalue="Python.Day 6 Part 1" />
+        <item itemvalue="Python.Day 5 Part 2" />
+        <item itemvalue="Python.Day 5 Part 1" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +189,14 @@
       <workItem from="1575457019770" duration="7654000" />
       <workItem from="1575466535824" duration="243000" />
       <workItem from="1575469913584" duration="2806000" />
+      <workItem from="1575504368687" duration="15000" />
+      <workItem from="1575504394131" duration="3182000" />
+      <workItem from="1575507598515" duration="2798000" />
+      <workItem from="1575528525038" duration="9764000" />
+      <workItem from="1575606695812" duration="3498000" />
+      <workItem from="1575611468481" duration="4147000" />
+      <workItem from="1575621131647" duration="587000" />
+      <workItem from="1575696139264" duration="19940000" />
     </task>
     <servers />
   </component>
@@ -179,10 +216,29 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Day 6/Day 6 Part 1.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Advent_of_Code$Day_1.coverage" NAME="Day 1 Coverage Results" MODIFIED="1575266190953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 1" />
+    <SUITE FILE_PATH="coverage/Advent_of_Code$Day_4_Part_2.coverage" NAME="Day 4 Part 2 Coverage Results" MODIFIED="1575510359268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 4" />
+    <SUITE FILE_PATH="coverage/Advent_of_Code$Day_7_Part_1.coverage" NAME="Day 7 Part 1 Coverage Results" MODIFIED="1575721485950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 7" />
+    <SUITE FILE_PATH="coverage/Advent_of_Code$Day_6_Part_2.coverage" NAME="Day 6 Part 2 Coverage Results" MODIFIED="1575621143009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 6" />
     <SUITE FILE_PATH="coverage/Advent_of_Code$Day_3.coverage" NAME="Day 3 Coverage Results" MODIFIED="1575457176735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 3" />
     <SUITE FILE_PATH="coverage/Advent_of_Code$Day_3_Part_2.coverage" NAME="Day 3 Part 2 Coverage Results" MODIFIED="1575472698271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 3" />
+    <SUITE FILE_PATH="coverage/Advent_of_Code$Day_4_part_1.coverage" NAME="Day 4 part 1 Coverage Results" MODIFIED="1575504398984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 4" />
+    <SUITE FILE_PATH="coverage/Advent_of_Code$Day_5_Part_1.coverage" NAME="Day 5 Part 1 Coverage Results" MODIFIED="1575532172770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 5" />
+    <SUITE FILE_PATH="coverage/Advent_of_Code$Day_4_Part_1.coverage" NAME="Day 4 Part 1 Coverage Results" MODIFIED="1575508838610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 4" />
+    <SUITE FILE_PATH="coverage/Advent_of_Code$Day_5_Part_2.coverage" NAME="Day 5 Part 2 Coverage Results" MODIFIED="1575547776805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 5" />
     <SUITE FILE_PATH="coverage/Advent_of_Code$Day_2.coverage" NAME="Day 2 Coverage Results" MODIFIED="1575269162922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 2" />
+    <SUITE FILE_PATH="coverage/Advent_of_Code$Day_6_Part_1.coverage" NAME="Day 6 Part 1 Coverage Results" MODIFIED="1575621134691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 6" />
   </component>
 </project>
