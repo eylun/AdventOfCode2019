@@ -4,6 +4,7 @@ def main():
     vectors = generate_all_vectors(base_map)
     print(vectors)
     asteroid_count_list = []
+    asteroid_positions = []
     height = len(base_map[0])
     length = len(base_map)
     vectors_len = len(vectors)
@@ -26,6 +27,8 @@ def main():
                         multiplier = 1
 
                 asteroid_count_list.append(asteroid_count)
+                asteroid_positions.append((x, y))
+    print(asteroid_positions[asteroid_count_list.index(max(asteroid_count_list))])
     return max(asteroid_count_list)
 
 def generate_all_vectors(map):

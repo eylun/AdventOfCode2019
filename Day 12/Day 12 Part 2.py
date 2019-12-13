@@ -1,43 +1,27 @@
 def main():
     moons = readfile()
-    for i in range(3):
-
-    # velocity = [[0 for i in range(3)] for j in range(4)]
-    # individual_moon_base_pos = moons[:]
-    # individual_moon_cycle = [1, 1, 1, 1]
-    # timestep = 1
-    # #moon_pos_set = set()
-    # done = False
-    # while not done:
-    #     print(individual_moon_cycle, timestep)
-    #     #print(timestep, moons[1], velocity[1])
-    #     #moon_set = tuple(tuple(moons[i]) for i in range(len(moons)))
-    #     #if moon_set in moon_pos_set:
-    #     #    done = True
-    #     #else:
-    #         #moon_pos_set.add(moon_set)
-    #     for focus_moon in range(len(moons)):
-    #         moons_copy = moons[:]
-    #         moons_copy.pop(focus_moon)
-    #         for other_moon in range(len(moons_copy)):
-    #             for axis in range(len(moons[focus_moon])):
-    #                 if moons[focus_moon][axis] < moons_copy[other_moon][axis]:
-    #                     velocity[focus_moon][axis] += 1
-    #                 if moons[focus_moon][axis] > moons_copy[other_moon][axis]:
-    #                     velocity[focus_moon][axis] -= 1
-    #         if moons[focus_moon] == individual_moon_base_pos[focus_moon]:
-    #             if individual_moon_cycle[focus_moon] == 1:
-    #                 individual_moon_cycle[focus_moon] = timestep
-    #             if 1 not in individual_moon_cycle:
-    #                 done = True
-    #     #print(moons, "---", velocity)
-    #     for i in range(len(moons)):
-    #         moons[i] = list(map(lambda x, y : x + y, moons[i], velocity[i]))
-        if not done:
+    count_tracker = [0, 0, 0]
+    for axis in range(3):
+        axises = [moons[x][axis] for x in range(4)]
+        base_axises = axises[:]
+        axis_velocity = [0, 0, 0, 0]
+        done = False
+        timestep = 0
+        while not done:
+            if timestep != 0 and axises == base_axises:
+                done = True
+            for i in range(len(axises)):
+                other_axises = axises[:]
+                other_axises.pop(i)
+                for j in range(len(other_axises)):
+                    if axises[i] < other_axises[j]:
+                        axis_velocity[i] += 1
+                    elif axises[i] > other_axises[j]:
+                        axis_velocity[i] -= 1
+            axises = list(map(lambda x, y: x + y, axises, axis_velocity))
             timestep += 1
-    print(individual_moon_cycle, int(lcm(individual_moon_cycle)))
-    return timestep
-
+        count_tracker[axis] = timestep
+    return int(lcm(count_tracker))
 
 def gcd(a,b):
     while b:
